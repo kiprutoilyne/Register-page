@@ -1,0 +1,33 @@
+.main {
+    background: #0C98BE;
+
+}
+
+body {
+    max-height: 600px;
+    font-family: inter;
+
+}
+
+.pic {
+    background-image: url(./img/Rectangle\ 41.svg);
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+
+
+.form-control {
+    border: 1px solid black;
+}
+
+.btn-bod {
+    border: 1px solid black;
+}
+
+h5 {
+
+    font-size: 24px;
+}
