@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main {
     background: #0C98BE;
 
@@ -11,6 +17,8 @@ body {
 
 .pic {
     background-image: url(./img/Rectangle\ 41.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
@@ -30,4 +38,13 @@ body {
 h5 {
 
     font-size: 24px;
+}
+
+@media(max-width:768px) {
+
+    .pic,
+    .pc2 {
+        width: 100%;
+    }
+
 }
